@@ -14,10 +14,7 @@ To use the batch file, follow these steps:
 1. Open a command prompt or terminal window.
 2. Navigate to the directory where the batch file is located.
 3. Type the following command:
-
-   `````
-   compile_and_run.bat
-   ```
+`run_me.bat`
 
 4. Press Enter to run the batch file.
 
