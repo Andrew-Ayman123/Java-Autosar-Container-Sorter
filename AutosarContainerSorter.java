@@ -68,7 +68,7 @@ public class AutosarContainerSorter {
             System.out.println("File Output Successfully");
         } catch (SAXParseException e) {
             // Handle exceptions for invalid XML files (Empty files)
-            throw new EmptyAutosarFileException(filePath + " is not a valid ARXML File. Please try again.");
+            throw new EmptyAutosarFileException(filePath + " is an empty File. Please try again.");
 
         } catch (Exception e) {
             // Handle other exceptions by printing the stack trace
